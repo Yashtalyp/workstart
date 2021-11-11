@@ -1,6 +1,9 @@
 package com.parahat;
 
+import java.util.ArrayList;
+
 public class SchoolDay {
-    Session sessions;
+
+    ArrayList<Session> sessions;
 
 }

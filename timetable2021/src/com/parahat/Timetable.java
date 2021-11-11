@@ -1,9 +1,9 @@
 package com.parahat;
 
+import java.util.ArrayList;
+
 public class Timetable {
-    SchoolDay schoolDays;
 
-    public static void main(String[] args) {
+    ArrayList<SchoolDay> schoolDays;
 
-    }
 }

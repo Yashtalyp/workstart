@@ -1,8 +1,10 @@
 package com.parahat;
 
+import java.util.ArrayList;
+
 public class Session {
     Audience audience;
     Professor professor;
-    Group groups;
+    ArrayList<Group> groups;
 
 }
