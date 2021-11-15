@@ -1,9 +1,9 @@
 package com.parahat;
 
 public class Group {
-    int numberGroup;
-    int phoneNumber;
-    public Group(int numberGroup, int phoneNumber){
+    String numberGroup;
+    String phoneNumber;
+    public Group(String numberGroup, String phoneNumber){
         this.numberGroup=numberGroup;
         this.phoneNumber=phoneNumber;
     }

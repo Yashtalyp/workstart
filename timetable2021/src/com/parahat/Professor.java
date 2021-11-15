@@ -2,8 +2,8 @@ package com.parahat;
 
 public class Professor {
     String name;
-    int telephone;
-    public Professor(String name, int telephone){
+    String telephone;
+    public Professor(String name, String telephone){
         this.name=name;
         this.telephone=telephone;
     }
