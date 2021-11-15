@@ -4,8 +4,17 @@ import java.util.ArrayList;
 
 public class SchoolDay {
 
-    ArrayList<Session> sessions;
+    private ArrayList<Session> sessions;
+
     public SchoolDay(ArrayList<Session> sessions){
+        this.sessions=sessions;
+    }
+
+    public ArrayList<Session> getSessions(){
+        return sessions;
+    }
+
+    public void setSessions(ArrayList<Session> sessions){
         this.sessions=sessions;
     }
 
