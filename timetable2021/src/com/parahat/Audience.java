@@ -22,8 +22,8 @@ public class Audience {
         return capacityPeople;
     }
 
-    public void setCapacityPeople(int capacityPeople){
-        this.capacityPeople=capacityPeople;
+    public void setCapacityPeople(int capacityPeople) {
+        this.capacityPeople = capacityPeople;
     }
 
 }
